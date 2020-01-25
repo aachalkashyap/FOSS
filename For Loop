@@ -1,0 +1,38 @@
+WAP in C# to show the use of For loop.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsolePOWER 
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            long p;
+            int n;          
+            Console.WriteLine("Value of n :   2 to the Power n :");
+            Console.WriteLine("____________   ______________");
+            p = 1L;
+            for (n = 0; n <10; n++)
+            {
+                if (n == 0)
+                    p = 1L;
+                else
+                    p = p * 2;
+                
+                Console.WriteLine(n+"\t\t"+p);
+               
+
+
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+ 
+
+
